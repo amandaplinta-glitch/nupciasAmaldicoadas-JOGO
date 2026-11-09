@@ -6,7 +6,7 @@ import javafx.fxml.FXML;
 public class IgrejaJardimController {
 
     @FXML
-    private void comecarJogo() throws IOException {
-        App.setRoot("igrejaFrente");
+    private void mudarInterior() throws IOException {
+        App.setRoot("igrejaInterior");
     }
 }

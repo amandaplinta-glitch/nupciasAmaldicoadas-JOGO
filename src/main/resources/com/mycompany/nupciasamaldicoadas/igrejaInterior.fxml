@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
 
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.nupciasamaldicoadas.IgrejaInteriorController">
-    <children>
-        <ImageView fitWidth="120" preserveRatio="true">
-            <image>
-                <Image url="@cenarioDia/IgrejaFrente.jpeg" />
-            </image>
-        </ImageView>
-    </children>
+    <VBox style="-fx-background-image: url('/com/mycompany/nupciasamaldicoadas/cenarioDia/IgrejaInterior.png'); -fx-background-size: 100% 100%; -fx-background-repeat: no-repeat; -fx-background-position: center;" 
+          prefWidth="650.0" prefHeight="600.0">
+        
+        <!-- 1. Controla a altura (o "Y" de cima para baixo) para os botões -->
+        <Region prefHeight="370.0" />
+        
+        <!-- Botões "Frente" e "Jardim" com margem esquerda (Eixo X) -->
+        <HBox spacing="10.0">
+            <children>
+                <Button fx:id="btnFrente" text="Frente" onAction="#mudarFrente"/>
+                <Button fx:id="btnJardim" text="Jardim" onAction="#mudarJardim"/>
+            </children>
+            <padding>
+                <Insets left="245.0" /> <!-- Altere aqui para mover o botão para a esquerda ou direita -->
+            </padding>
+        </HBox>
+        
+    </VBox>
+   
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>

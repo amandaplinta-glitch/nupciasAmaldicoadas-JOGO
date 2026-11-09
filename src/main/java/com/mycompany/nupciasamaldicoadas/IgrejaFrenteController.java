@@ -6,7 +6,12 @@ import javafx.fxml.FXML;
 public class IgrejaFrenteController {
 
     @FXML
-    private void switchToPrimary() throws IOException {
-        App.setRoot("primary");
+    private void mudarInterior() throws IOException {
+        App.setRoot("igrejaInterior");
+    }
+    
+        @FXML
+    private void irLoja() throws IOException {
+        App.setRoot("Loja");
     }
 }
