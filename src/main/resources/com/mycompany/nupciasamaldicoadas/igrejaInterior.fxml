@@ -18,6 +18,8 @@
             <children>
                 <Button fx:id="btnFrente" text="Frente" onAction="#mudarFrente"/>
                 <Button fx:id="btnJardim" text="Jardim" onAction="#mudarJardim"/>
+                <Button fx:id="btnCasamento1" text="Casamento" onAction="#prepararCasamento"/>
+                <Button fx:id="btn" text="Casamaaaaaento" onAction="#passarDia"/>
             </children>
             <padding>
                 <Insets left="245.0" /> <!-- Altere aqui para mover o botão para a esquerda ou direita -->
