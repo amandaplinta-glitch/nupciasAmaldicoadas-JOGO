@@ -12,6 +12,6 @@ public class IgrejaFrenteController {
     
         @FXML
     private void irLoja() throws IOException {
-        App.setRoot("Loja");
+        App.setRoot("loja");
     }
 }

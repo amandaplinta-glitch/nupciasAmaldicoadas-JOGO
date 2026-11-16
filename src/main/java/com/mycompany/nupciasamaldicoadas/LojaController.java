@@ -11,12 +11,12 @@ public class LojaController {
     
      @FXML
     private void irCenario() throws IOException {
-        App.setRoot("Cenario");
+        App.setRoot("cenario");
     }
     
      @FXML
     private void irArma() throws IOException {
-        App.setRoot("Arma");
+        App.setRoot("arma");
     }
     
     @FXML

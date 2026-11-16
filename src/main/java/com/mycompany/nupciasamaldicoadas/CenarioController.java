@@ -11,6 +11,6 @@ public class CenarioController {
     
       @FXML
     private void irLoja() throws IOException {
-        App.setRoot("Loja");
+        App.setRoot("loja");
     }
 }
