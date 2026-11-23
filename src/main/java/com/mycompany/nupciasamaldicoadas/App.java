@@ -14,6 +14,9 @@ import java.io.IOException;
 public class App extends Application {
 
     private static Scene scene;
+    
+    // Guarda o nome do FXML do último cenário visitado
+    public static String cenarioAnterior = "igrejaFrente";
 
     @Override
     public void start(Stage stage) throws IOException {

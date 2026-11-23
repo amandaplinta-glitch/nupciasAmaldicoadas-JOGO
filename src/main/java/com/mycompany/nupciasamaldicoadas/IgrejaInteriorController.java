@@ -17,6 +17,7 @@ public class IgrejaInteriorController {
    
     @FXML
     private void irLoja() throws IOException {
+        App.cenarioAnterior = "igrejaInterior"; // Salva que está no interior
         App.setRoot("loja");
     }
 }

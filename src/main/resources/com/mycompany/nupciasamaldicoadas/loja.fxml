@@ -26,11 +26,9 @@
         </ImageView>
         
        
-        <Button fx:id="btnCenario" text="Cenarios" onAction="#irCenario"/>
-        <Button fx:id="btnArma" text="Armas" onAction="#irArma"/>
-        <Button fx:id="btnSair" text="Sair" onAction="#mudarFrente"/>
-        <Button fx:id="btnSairJ" text="Sair" onAction="#mudarJardim"/>
-        <Button fx:id="btnSairI" text="Sair" onAction="#mudarInterior"/>
+    <Button fx:id="btnCenario" text="Cenarios" onAction="#irCenario"/>
+    <Button fx:id="btnArma" text="Armas" onAction="#irArma"/>
+    <Button fx:id="btnSair" text="Sair" onAction="#voltarCenario"/>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

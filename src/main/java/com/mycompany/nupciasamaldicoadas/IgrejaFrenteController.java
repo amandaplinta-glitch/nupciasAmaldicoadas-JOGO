@@ -10,8 +10,10 @@ public class IgrejaFrenteController {
         App.setRoot("igrejaInterior");
     }
     
-        @FXML
+        
+    @FXML
     private void irLoja() throws IOException {
-        App.setRoot("loja");
+         App.cenarioAnterior = "igrejaFrente"; // Salva que está na frente
+         App.setRoot("loja");
     }
 }
