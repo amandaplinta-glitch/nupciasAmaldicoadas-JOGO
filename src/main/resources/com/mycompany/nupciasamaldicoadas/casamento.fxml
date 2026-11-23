@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.nupciasamaldicoadas.IgrejaInteriorController">
+    <VBox style="-fx-background-image: url('/com/mycompany/nupciasamaldicoadas/cenarioDia/IgrejaInterior.png'); -fx-background-size: 100% 100%; -fx-background-repeat: no-repeat; -fx-background-position: center;" 
+          prefWidth="650.0" prefHeight="600.0">
+        
+        <!-- 1. Controla a altura (o "Y" de cima para baixo) para os botões -->
+        <Region prefHeight="370.0" />
+        
+        
+        <!-- Botões "Frente" e "Jardim" com margem esquerda (Eixo X) -->
+        <HBox spacing="10.0">
+            <children>
+                <ChoiceBox fx:id="cbCasamento"/>
+            </children>
+            <padding>
+                <Insets left="245.0" /> <!-- Altere aqui para mover o botão para a esquerda ou direita -->
+            </padding>
+        </HBox>
+        
+    </VBox>
+   
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>
