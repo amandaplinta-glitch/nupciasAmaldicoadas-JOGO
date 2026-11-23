@@ -18,9 +18,8 @@
         
         <!-- Botão "Interior": Controla a posição horizontal (o "X") usando margem esquerda -->
         <HBox>
-           
-                
                 <Button fx:id="btnLocomocao" text="Interior" onAction="#mudarInterior"/>
+                
             
             <padding>
                 <Insets left="280.0" /> <!-- Altere aqui para mover o botão para a esquerda ou direita -->

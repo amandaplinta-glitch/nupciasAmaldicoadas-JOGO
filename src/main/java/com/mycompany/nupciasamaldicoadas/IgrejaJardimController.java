@@ -9,4 +9,9 @@ public class IgrejaJardimController {
     private void mudarInterior() throws IOException {
         App.setRoot("igrejaInterior");
     }
+    
+    @FXML
+    private void irLoja() throws IOException {
+        App.setRoot("loja");
+    }
 }

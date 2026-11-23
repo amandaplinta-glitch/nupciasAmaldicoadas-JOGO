@@ -26,6 +26,20 @@
             </padding>
         </HBox>
  
+        <!-- Botão "Celular": Fixo no canto inferior esquerdo -->
+        <HBox alignment="BOTTOM_LEFT">
+            <Button fx:id="btnLoja" onAction="#irLoja" style="-fx-background-color: transparent;">
+    <graphic>
+        <ImageView fitWidth="60.0" fitHeight="60.0" preserveRatio="true">
+            <image>
+                <!-- Se o FXML estiver na pasta 'nupciasamaldicoadas', use apenas: -->
+                <Image url="@cenarioDia/celular.png" />
+            </image>
+        </ImageView>
+    </graphic>
+</Button>
+        </HBox>
+ 
     </VBox>
    
    <padding>

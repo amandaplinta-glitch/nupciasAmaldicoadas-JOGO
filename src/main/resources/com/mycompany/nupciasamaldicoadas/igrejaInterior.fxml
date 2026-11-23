@@ -5,6 +5,9 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Region?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
 
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.nupciasamaldicoadas.IgrejaInteriorController">
     <VBox style="-fx-background-image: url('/com/mycompany/nupciasamaldicoadas/cenarioDia/IgrejaInterior.png'); -fx-background-size: 100% 100%; -fx-background-repeat: no-repeat; -fx-background-position: center;" 
@@ -22,6 +25,20 @@
             <padding>
                 <Insets left="245.0" /> <!-- Altere aqui para mover o botão para a esquerda ou direita -->
             </padding>
+        </HBox>
+        
+        <!-- Botão "Celular": Fixo no canto inferior esquerdo -->
+        <HBox alignment="BOTTOM_LEFT">
+            <Button fx:id="btnLoja" onAction="#irLoja" style="-fx-background-color: transparent;">
+    <graphic>
+        <ImageView fitWidth="60.0" fitHeight="60.0" preserveRatio="true">
+            <image>
+                <!-- Se o FXML estiver na pasta 'nupciasamaldicoadas', use apenas: -->
+                <Image url="@cenarioDia/celular.png" />
+            </image>
+        </ImageView>
+    </graphic>
+        </Button>
         </HBox>
         
     </VBox>

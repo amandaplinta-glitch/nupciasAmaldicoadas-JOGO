@@ -22,5 +22,15 @@ public class LojaController {
     @FXML
     private void mudarFrente() throws IOException {
         App.setRoot("igrejaFrente");
+    } 
+    
+    @FXML
+    private void mudarInterior() throws IOException {
+        App.setRoot("igrejaInterior");
+    }
+    
+    @FXML
+    private void mudarJardim() throws IOException {
+        App.setRoot("igrejaJardim");
     }
 }

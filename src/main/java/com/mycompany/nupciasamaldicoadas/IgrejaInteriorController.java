@@ -14,4 +14,9 @@ public class IgrejaInteriorController {
     private void mudarFrente() throws IOException {
         App.setRoot("igrejaFrente");
     }
+   
+    @FXML
+    private void irLoja() throws IOException {
+        App.setRoot("loja");
+    }
 }

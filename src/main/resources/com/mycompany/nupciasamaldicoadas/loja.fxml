@@ -14,11 +14,23 @@
                 <Image url="/com/mycompany/nupciasamaldicoadas/cenarioDia/IgrejaFrente.png" />
             </image>
         </ImageView>
+         <ImageView fitWidth="120" preserveRatio="true">
+            <image>
+                <Image url="/com/mycompany/nupciasamaldicoadas/cenarioDia/IgrejaInterior.png" />
+            </image>
+        </ImageView>
+         <ImageView fitWidth="120" preserveRatio="true">
+            <image>
+                <Image url="/com/mycompany/nupciasamaldicoadas/cenarioDia/IgrejaJardim.png" />
+            </image>
+        </ImageView>
         
        
         <Button fx:id="btnCenario" text="Cenarios" onAction="#irCenario"/>
         <Button fx:id="btnArma" text="Armas" onAction="#irArma"/>
         <Button fx:id="btnSair" text="Sair" onAction="#mudarFrente"/>
+        <Button fx:id="btnSairJ" text="Sair" onAction="#mudarJardim"/>
+        <Button fx:id="btnSairI" text="Sair" onAction="#mudarInterior"/>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
